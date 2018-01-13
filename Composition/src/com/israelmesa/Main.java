@@ -19,5 +19,7 @@ public class Main {
 
         System.out.println("Customer Checking Balance: " + customer.getChecking().getBalance());
         System.out.println("Customer Savings Balance: " + customer.getSavings().getBalance());
+
+        //testing git hub
     }
 }
