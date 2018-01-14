@@ -7,7 +7,7 @@ public class Main {
         Checking checking = new Checking("Israel Mesa");
         Customer customer = new Customer(checking, savings);
 
-        checking.deposit(100.00);
+        checking.deposit(1000.00);
         checking.withdrawal(50.00);
         System.out.println("Account Holder: " + checking.getAccountHolder()+ ", Balance: " + checking.getBalance());
 
@@ -20,6 +20,9 @@ public class Main {
         System.out.println("Customer Checking Balance: " + customer.getChecking().getBalance());
         System.out.println("Customer Savings Balance: " + customer.getSavings().getBalance());
 
-        //testing git hub
+
+
+        //Add differences to each account type: Checks, Interest
+        //Method to create new Customers
     }
 }
